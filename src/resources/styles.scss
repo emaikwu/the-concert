@@ -1,0 +1,75 @@
+@media (max-width: 920px) {
+	.center_wrapper {
+		width: unset;
+	}
+	.countdown_wrapper {
+		.countdown_time {
+			font-size: 50px;
+			padding-right: 30px;
+		}
+		.countdown_tag {
+			font-size: 18px;
+		}
+	}
+	.vn_wrapper {
+		display: block;
+		padding: 140px 0 100px;
+		.vn_item {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+	.highlight_wrapper .center_wrapper {
+		.highlight_description {
+			padding: 0 20px;
+		}
+		width: unset;
+		.discount_wrapper {
+			display: block;
+			.discount_porcentage {
+				padding:0;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			.discount_description {
+				padding: 0 20px;
+				text-align: center;
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+	.pricing_wrapper {
+		display: block;
+		.pricing_item {
+			width: 80%;
+    		margin: 0 auto;
+		}
+	}
+	.artist_name {
+		width: 320px;
+	}
+	.MuiDrawer-paper-52 {
+		width: 30%
+	}
+}
+
+@media (max-width: 580px) {
+	.countdown_wrapper {
+		.countdown_time {
+			font-size: 25px;
+			padding-right: 15px;
+		}
+		.countdown_tag {
+			font-size: 16px;
+		}
+	}
+	.MuiDrawer-paper-52 {
+		width: 60%
+	}
+	.MuiListItem-root-103 {
+		padding-top: 17px;
+		padding-bottom: 17px;
+	}
+}
